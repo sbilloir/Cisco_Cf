@@ -1,0 +1,51 @@
+
+
+
+<span class="contenttitlealt"></span><p>
+The following orders were found for your request.<p>
+<table border="1" cellpadding="0" cellspacing="0" width="100%" class="appstablecolor">
+    <tr>
+    <td width="100%" nowrap><br><span class="moduletitlerev">Order Status Summary</span><br>
+    </td>
+    </tr>
+</table>
+<table width = "100%" border = "1" cellpadding = "0" cellspacing = "0" class = "appstablecolor">
+<tr>
+<td width = "100%">
+    <table width="100%" border="1" cellspacing="1" cellpadding="3">
+        <tr bgcolor="#ffffff">
+        <td valign="top" class="modulesubhead">Sales Order</td>
+        <td valign="top" class="modulesubhead">Purchase Order</td>
+        <td valign="top" class="modulesubhead">Order ID</td>
+        <td valign="top" class="modulesubhead">Order Type</td>          <td valign="top" class="modulesubhead">Bill-To</td>
+        <td valign="top" class="modulesubhead">Ship-To</td>
+        <td valign="top" class="modulesubhead">Date Submitted</td>
+        <td valign="top" class="modulesubhead">Status</td>
+        <td valign="top" class="modulesubhead">Expected Ship Date</td>
+    </tr>
+                        <tr bgcolor="#ffffff">
+                <td valign="top" class="modulecontent">9561712</td>
+                <td valign="top" class="modulecontent">4601939914</td>
+                <td valign="top" class="modulecontent">MP13414056</td>
+                <td valign="top" class="modulecontent">STANDARD</td>                 <td valign="top" class="modulecontent">COMPAGNIE IBM FRANCE SAS</td>
+                <td valign="top" class="modulecontent">IBM</td>
+                <td valign="top" class="modulecontent">02/Nov/2007&nbsp;</td>
+                <td valign="top" class="modulecontent">Complete</td>
+                <td valign="top" class="modulecontent"> &nbsp;</td>
+            </tr>
+                    <tr bgcolor="#ffffff">
+                <td valign="top" class="modulecontent">9551233</td>
+                <td valign="top" class="modulecontent">4601939914</td>
+                <td valign="top" class="modulecontent">MP13358232</td>
+                <td valign="top" class="modulecontent">STANDARD</td>                 <td valign="top" class="modulecontent">COMPAGNIE IBM FRANCE SAS</td>
+                <td valign="top" class="modulecontent">IBM</td>
+                <td valign="top" class="modulecontent">26/Oct/2007&nbsp;</td>
+                <td valign="top" class="modulecontent">Complete</td>
+                <td valign="top" class="modulecontent">28/Dec/2007&nbsp;</td>
+            </tr>
+        	</table></td>
+</tr>
+</table>
+<br>
+Terms And Conditions<br>
+Cisco's standard Terms and Conditions of Sale shall apply to all Cisco products and services referenced in this document, unless you have entered into another written agreement with Cisco regarding the purchase and license of the Cisco products or services referenced in this document and such agreement is in effect, in which case the terms and conditions of such existing agreement shall govern the purchase and license of those Cisco products and services referenced in this document. A copy of Cisco's standard applicable Terms and Conditions of Sale may be obtained by sending a request, indicating the country in which you are located, to <a href='mailto:termsrequest@cisco.com'>termsrequest@cisco.com</a> 

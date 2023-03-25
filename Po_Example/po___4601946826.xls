@@ -1,0 +1,350 @@
+
+
+
+
+
+		
+
+     
+	       
+      
+    	    	    				    	    	    		    
+
+<table width="100%" border="1" cellspacing="0" cellpadding="0" class = "appstablecolor">
+
+<tr>
+<td>
+    <table width="100%" border="1" cellspacing="1" cellpadding="3">
+    <tr> 
+		<td colspan="14" bgcolor=green valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:white;text-decoration:none;font-weight:bold;">FIELDS</td>
+		<td colspan="5" bgcolor=blue valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:white;text-decoration:none;font-weight:bold;">Line</td>
+				<td colspan="9" bgcolor=red valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:white;text-decoration:none;font-weight:bold;">Pricing Details</td>
+				<td colspan="24" bgcolor=black valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:white;text-decoration:none;font-weight:bold;">Shipping Details</td>
+	</tr>
+    <tr>
+    <!-- Heade Information -->
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Status</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Purchase Order</td>    
+  		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Quote Number</td>     	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Sales Order</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Order ID</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Deal ID</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Order Type</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Date Submitted</td>    
+   		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Earliest Expiration Date</td>  	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Expected <br> Ship Date</td>    
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Early Ship</td> 
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Bill-To Address</td> 
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Ship-To Address</td> 		
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">End Customer Address</td> 				
+
+    <!-- Line Information -->		    	    	    	    	       	    
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Line</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Ship Set</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Product</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Active Quantity</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Quantity Shipped</td>
+                
+        <!-- Pricing Details -->
+	            <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">List Price</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Discount</td>
+	<!--Added code for trade-in and promotion values by shdeshmu on 21/10/2005 to resolve TD#70719
+	Start -->
+	<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Trade-in</td>
+	<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Promotion</td>
+	<!-- End -->
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Unit Price</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Extended Price</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Subtotal Product</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Subtotal Service</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Total</td>
+	        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Invoice Number</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Line Status</td>
+                
+		<!-- Shipping Details -->        
+        
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Request Date</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Scheduled Ship Date</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Date Shipped</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipment Method</td>
+        
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Ship To Address</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">End Customer Address</td>
+                <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Distribution <br>Center Location</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Distribution <br>Ship Date</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipping Preference</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Freight Terms</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Carrier</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipping Service <br>Level</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Duty Attribute</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Weight <br> (in lbs.)</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipping Cost</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Final Delivery Location</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Final Delivery Date</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Received By</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Tracking Number <br> (Number of Pieces)</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Number of <br>  Cartons</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Named Place</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipping Address</td>      
+        			    </tr>
+
+    <!-- Modified by sushetty on 01-Jul-2003 for QBERT# 83378: Bundled lines missing 
+	  -- Changes:  Header changed to 'Bundle' instead of 'Line' for Bundles. 
+	  -- Inserted a row header with Line no. for each line with in every bundle.
+	  -- A Heading "Non-Bundled Lines" will separate Bundles from other major lines
+    -->	
+                            								
+            <tr bgcolor="#ffffff">
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Complete</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">4601946826</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td> 				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">9570946</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">MP13473008</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">1185966</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">STANDARD</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">09/Nov/2007</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> </td> 				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">23/Nov/2007</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Yes</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">COMPAGNIE IBM FRANCE SAS<br>(XML ORDERS)<br>2 AVENUE GAMBETTA<br>PARIS LA DEFENSE  92066<br>France</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA M<br>3 5 AVENUE MAURANE SAULNIER<br>ATTN PIERRE COULANGE 01 39 26 91<br>VELIZY 78 78944<br>France</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA M<br>3/5 AVENUE MAURANE SAULNIER<br>VELIZY YVELINES 78944<br>France</td>				  
+				            
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">1 . 0</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">1</td>
+                                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">WS-C3750-48TS-S <br>                                                                                                                                              <br><span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;">Serial #:<br>
+                                FDO1143Y05T<br>FDO1143Y075<br>FDO1143Y056<br>FDO1143Y05C<br>FDO1143Y05M<br>FDO1143Y070<br>FDO1143Y05G<br>FDO1143Y060<br>FDO1143Y06Y<br>FDO1143Y06V<br>FDO1143Y072<br>FDO1143Y081<br>FDO1143Y05Y<br>FDO1143Y05Z<br>FDO1143Y05W<br>FDO1143Y06S<br>FDO1143Y06R<br>FDO1143Y04N<br>FDO1143Y06K<br>FDO1143Y05X<br>FDO1143Y07T<br>FDO1143Y086<br>FDO1143Y087<br>FDO1143Y083<br>FDO1143Y06N<br>FDO1143Y06E<br>FDO1143Y046<br>FDO1143Y045<br>FDO1143Y04F<br>FDO1143Y03A<br>FDO1143Y03N<br>FDO1143Y03F<br>FDO1143Y03B<br>FDO1143Y03L<br>FDO1143Y048<br>FDO1142Y2ER<br>FDO1143Y04L<br>FDO1143Y04Q<br>FDO1143Y04S<br>FDO1143Y04V<br>                                                    </span>
+                                                                 &nbsp;<br></span>
+                                    </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">40</td>
+                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">40</td>
+                
+					                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 6,995.00</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">54.14%</td>
+									<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>
+			<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>
+			                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 3,207.91</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 128,316.40</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 129,692.20</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>                                                                                
+	            <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 129,692.20</td>                    
+	            		    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"><a href="http://tools.cisco.com/qtc/invoice/GetType?sQueryType=DTL&sDetNumType=INV&sEmail=NO_DATA&sDelivery=HTML&sDocNumber=6726839" class="modulecontentlink">6726839</a></td>
+                    <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">Complete</td>                    
+                    					
+					<!-- Shipping Details -->                                        
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">14/Nov/2007&nbsp;</td>
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">
+	                    	                        Original:23/Nov/2007<br>Current:23/Nov/2007</td>
+	                    	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">23/Nov/2007&nbsp;</td>
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">ELC Gold</td>
+                                    	                 <td> </td>   <!-- for Ship-To Address -->
+                 <td> </td>   <!-- for End Customer Address -->
+                             
+                				
+			                   <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Roermond, Netherlands</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">23/Nov/2007&nbsp;</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Cisco</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Add / CIP</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">UPS Logistics</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Standard</td>					              
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Duty Paid</td>                    
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">635.85</td>
+                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 1,296.92</td>
+                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">VELIZY <br>78<br>France</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">28/Nov/2007</td>                                                                                                    
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> COULANGES<br></td>
+                     <!-- Tracking Details -->
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">
+                                                                                                                                       	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942709" class="modulecontentlink" target="_blank">1Z1484366865942709</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942718" class="modulecontentlink" target="_blank">1Z1484366865942718</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942727" class="modulecontentlink" target="_blank">1Z1484366865942727</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942736" class="modulecontentlink" target="_blank">1Z1484366865942736</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942745" class="modulecontentlink" target="_blank">1Z1484366865942745</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942754" class="modulecontentlink" target="_blank">1Z1484366865942754</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942763" class="modulecontentlink" target="_blank">1Z1484366865942763</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942772" class="modulecontentlink" target="_blank">1Z1484366865942772</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942781" class="modulecontentlink" target="_blank">1Z1484366865942781</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942790" class="modulecontentlink" target="_blank">1Z1484366865942790</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942807" class="modulecontentlink" target="_blank">1Z1484366865942807</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942816" class="modulecontentlink" target="_blank">1Z1484366865942816</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942825" class="modulecontentlink" target="_blank">1Z1484366865942825</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942834" class="modulecontentlink" target="_blank">1Z1484366865942834</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942843" class="modulecontentlink" target="_blank">1Z1484366865942843</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942852" class="modulecontentlink" target="_blank">1Z1484366865942852</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942861" class="modulecontentlink" target="_blank">1Z1484366865942861</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942870" class="modulecontentlink" target="_blank">1Z1484366865942870</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942889" class="modulecontentlink" target="_blank">1Z1484366865942889</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942898" class="modulecontentlink" target="_blank">1Z1484366865942898</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942905" class="modulecontentlink" target="_blank">1Z1484366865942905</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942914" class="modulecontentlink" target="_blank">1Z1484366865942914</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942923" class="modulecontentlink" target="_blank">1Z1484366865942923</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942932" class="modulecontentlink" target="_blank">1Z1484366865942932</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942941" class="modulecontentlink" target="_blank">1Z1484366865942941</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942950" class="modulecontentlink" target="_blank">1Z1484366865942950</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942969" class="modulecontentlink" target="_blank">1Z1484366865942969</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942978" class="modulecontentlink" target="_blank">1Z1484366865942978</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942987" class="modulecontentlink" target="_blank">1Z1484366865942987</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942996" class="modulecontentlink" target="_blank">1Z1484366865942996</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943002" class="modulecontentlink" target="_blank">1Z1484366865943002</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943011" class="modulecontentlink" target="_blank">1Z1484366865943011</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943020" class="modulecontentlink" target="_blank">1Z1484366865943020</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943039" class="modulecontentlink" target="_blank">1Z1484366865943039</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943048" class="modulecontentlink" target="_blank">1Z1484366865943048</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943057" class="modulecontentlink" target="_blank">1Z1484366865943057</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943066" class="modulecontentlink" target="_blank">1Z1484366865943066</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943075" class="modulecontentlink" target="_blank">1Z1484366865943075</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943084" class="modulecontentlink" target="_blank">1Z1484366865943084</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943093" class="modulecontentlink" target="_blank">1Z1484366865943093</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943100" class="modulecontentlink" target="_blank">1Z1484366865943100</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943119" class="modulecontentlink" target="_blank">1Z1484366865943119</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943128" class="modulecontentlink" target="_blank">1Z1484366865943128</a>&nbsp;&nbsp;(1)<br> 
+                                                                  </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 1 </td>	                        
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Customer Premises</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA M<br>3 5 AVENUE MAURANE SAULNIER<br>ATTN PIERRE COULANGE 01 39 26 91<br>VELIZY 78 78944<br>France</td>                    
+			     	                  	             
+             	 		</tr>
+                                                                                  								
+            <tr bgcolor="#ffffff">
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Complete</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">4601946826</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td> 				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">9570946</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">MP13473008</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">1185966</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">STANDARD</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">09/Nov/2007</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> </td> 				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">23/Nov/2007</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Yes</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">COMPAGNIE IBM FRANCE SAS<br>(XML ORDERS)<br>2 AVENUE GAMBETTA<br>PARIS LA DEFENSE  92066<br>France</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA M<br>3 5 AVENUE MAURANE SAULNIER<br>ATTN PIERRE COULANGE 01 39 26 91<br>VELIZY 78 78944<br>France</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA M<br>3/5 AVENUE MAURANE SAULNIER<br>VELIZY YVELINES 78944<br>France</td>				  
+				            
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">2 . 0</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">1</td>
+                                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">CAB-STACK-1M= <br>                                                                                                               &nbsp;                        </span>
+                                                                                            <br><span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:bold;">Carton Id:<br>
+                            70585779<br>                        </span>
+                                    </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">15</td>
+                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">15</td>
+                
+					                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 200.00</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">54.14%</td>
+									<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>
+			<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>
+			                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 91.72</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 1,375.80</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 129,692.20</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>                                                                                
+	            <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 129,692.20</td>                    
+	            		    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"><a href="http://tools.cisco.com/qtc/invoice/GetType?sQueryType=DTL&sDetNumType=INV&sEmail=NO_DATA&sDelivery=HTML&sDocNumber=6726839" class="modulecontentlink">6726839</a></td>
+                    <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">Complete</td>                    
+                    					
+					<!-- Shipping Details -->                                        
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">14/Nov/2007&nbsp;</td>
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">
+	                    	                        Original:23/Nov/2007<br>Current:23/Nov/2007</td>
+	                    	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">23/Nov/2007&nbsp;</td>
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">ELC Gold</td>
+                                    	                 <td> </td>   <!-- for Ship-To Address -->
+                 <td> </td>   <!-- for End Customer Address -->
+                             
+                				
+			                   <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Roermond, Netherlands</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">23/Nov/2007&nbsp;</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Cisco</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Add / CIP</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">UPS Logistics</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Standard</td>					              
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Duty Paid</td>                    
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">635.85</td>
+                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 1,296.92</td>
+                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">VELIZY <br>78<br>France</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">28/Nov/2007</td>                                                                                                    
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> COULANGES<br></td>
+                     <!-- Tracking Details -->
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">
+                                                                                                                                       	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942709" class="modulecontentlink" target="_blank">1Z1484366865942709</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942718" class="modulecontentlink" target="_blank">1Z1484366865942718</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942727" class="modulecontentlink" target="_blank">1Z1484366865942727</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942736" class="modulecontentlink" target="_blank">1Z1484366865942736</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942745" class="modulecontentlink" target="_blank">1Z1484366865942745</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942754" class="modulecontentlink" target="_blank">1Z1484366865942754</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942763" class="modulecontentlink" target="_blank">1Z1484366865942763</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942772" class="modulecontentlink" target="_blank">1Z1484366865942772</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942781" class="modulecontentlink" target="_blank">1Z1484366865942781</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942790" class="modulecontentlink" target="_blank">1Z1484366865942790</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942807" class="modulecontentlink" target="_blank">1Z1484366865942807</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942816" class="modulecontentlink" target="_blank">1Z1484366865942816</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942825" class="modulecontentlink" target="_blank">1Z1484366865942825</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942834" class="modulecontentlink" target="_blank">1Z1484366865942834</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942843" class="modulecontentlink" target="_blank">1Z1484366865942843</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942852" class="modulecontentlink" target="_blank">1Z1484366865942852</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942861" class="modulecontentlink" target="_blank">1Z1484366865942861</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942870" class="modulecontentlink" target="_blank">1Z1484366865942870</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942889" class="modulecontentlink" target="_blank">1Z1484366865942889</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942898" class="modulecontentlink" target="_blank">1Z1484366865942898</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942905" class="modulecontentlink" target="_blank">1Z1484366865942905</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942914" class="modulecontentlink" target="_blank">1Z1484366865942914</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942923" class="modulecontentlink" target="_blank">1Z1484366865942923</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942932" class="modulecontentlink" target="_blank">1Z1484366865942932</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942941" class="modulecontentlink" target="_blank">1Z1484366865942941</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942950" class="modulecontentlink" target="_blank">1Z1484366865942950</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942969" class="modulecontentlink" target="_blank">1Z1484366865942969</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942978" class="modulecontentlink" target="_blank">1Z1484366865942978</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942987" class="modulecontentlink" target="_blank">1Z1484366865942987</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865942996" class="modulecontentlink" target="_blank">1Z1484366865942996</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943002" class="modulecontentlink" target="_blank">1Z1484366865943002</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943011" class="modulecontentlink" target="_blank">1Z1484366865943011</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943020" class="modulecontentlink" target="_blank">1Z1484366865943020</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943039" class="modulecontentlink" target="_blank">1Z1484366865943039</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943048" class="modulecontentlink" target="_blank">1Z1484366865943048</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943057" class="modulecontentlink" target="_blank">1Z1484366865943057</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943066" class="modulecontentlink" target="_blank">1Z1484366865943066</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943075" class="modulecontentlink" target="_blank">1Z1484366865943075</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943084" class="modulecontentlink" target="_blank">1Z1484366865943084</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943093" class="modulecontentlink" target="_blank">1Z1484366865943093</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943100" class="modulecontentlink" target="_blank">1Z1484366865943100</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943119" class="modulecontentlink" target="_blank">1Z1484366865943119</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366865943128" class="modulecontentlink" target="_blank">1Z1484366865943128</a>&nbsp;&nbsp;(1)<br> 
+                                                                  </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 1 </td>	                        
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Customer Premises</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA M<br>3 5 AVENUE MAURANE SAULNIER<br>ATTN PIERRE COULANGE 01 39 26 91<br>VELIZY 78 78944<br>France</td>                    
+			     	                  	             
+             	 		</tr>
+                                                                   </table></td>
+</tr>
+</table>
+
+<!--sidevi Start: Adding code for Feb08_MR TD149 -->
+<!--sidevi End: Adding code for Feb08_MR TD149 -->
+
+			    <br>
+    <br>
+    
+<BR>
+<TABLE border="1" width="100%" cellspacing="0" cellpadding="0">
+  <TR bgcolor="#FFCC66">
+    <TD nowrap="true" width="100%"><SPAN class="contenttitle">Status Tool:</SPAN>
+     <SPAN class="contenttitlesub">Software License Details </SPAN></TD>
+  </TR>
+</TABLE>
+
+
+ <table width="100%" border="1" cellspacing="0" cellpadding="0" class = "appstablecolor">
+    <tr>
+    <td>
+ <table width="100%" border="1" cellspacing="1" cellpadding="3" class = "appstablecolor">
+        <tr> 
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Line Number</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Product</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">DLA</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">PAK Key</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">RLK</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Transaction Date</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Email Address</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Product Subgroup</td>
+            
+			  </table> </table>
+
+	<br>
+Terms And Conditions
+Cisco's standard Terms and Conditions of Sale shall apply to all Cisco products and services referenced in this document, unless you have entered into another written agreement with Cisco regarding the purchase and license of the Cisco products or services referenced in this document and such agreement is in effect, in which case the terms and conditions of such existing agreement shall govern the purchase and license of those Cisco products and services referenced in this document. A copy of Cisco's standard applicable Terms and Conditions of Sale may be obtained by sending a request, indicating the country in which you are located, to <a href='mailto:termsrequest@cisco.com'>termsrequest@cisco.com</a> 
+     

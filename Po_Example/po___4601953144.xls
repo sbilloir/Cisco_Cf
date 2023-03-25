@@ -1,0 +1,359 @@
+
+
+
+
+
+		
+
+     
+	       
+      
+    	    	    				    	    	    				    	    	    		    	    	    		    
+
+<table width="100%" border="1" cellspacing="0" cellpadding="0" class = "appstablecolor">
+
+<tr>
+<td>
+    <table width="100%" border="1" cellspacing="1" cellpadding="3">
+    <tr> 
+		<td colspan="14" bgcolor=green valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:white;text-decoration:none;font-weight:bold;">FIELDS</td>
+		<td colspan="5" bgcolor=blue valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:white;text-decoration:none;font-weight:bold;">Line</td>
+				<td colspan="9" bgcolor=red valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:white;text-decoration:none;font-weight:bold;">Pricing Details</td>
+				<td colspan="29" bgcolor=black valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:white;text-decoration:none;font-weight:bold;">Shipping Details</td>
+	</tr>
+    <tr>
+    <!-- Heade Information -->
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Status</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Purchase Order</td>    
+  		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Quote Number</td>     	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Sales Order</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Order ID</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Deal ID</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Order Type</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Date Submitted</td>    
+   		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Earliest Expiration Date</td>  	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Expected <br> Ship Date</td>    
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Early Ship</td> 
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Bill-To Address</td> 
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Ship-To Address</td> 		
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">End Customer Address</td> 				
+
+    <!-- Line Information -->		    	    	    	    	       	    
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Line</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Ship Set</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Product</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Active Quantity</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Quantity Shipped</td>
+                
+        <!-- Pricing Details -->
+	            <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">List Price</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Discount</td>
+	<!--Added code for trade-in and promotion values by shdeshmu on 21/10/2005 to resolve TD#70719
+	Start -->
+	<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Trade-in</td>
+	<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Promotion</td>
+	<!-- End -->
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Unit Price</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Extended Price</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Subtotal Product</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Subtotal Service</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Total</td>
+	        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Invoice Number</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Line Status</td>
+                
+		<!-- Shipping Details -->        
+        
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Request Date</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Scheduled Ship Date</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Date Shipped</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipment Method</td>
+        
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Ship To Address</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">End Customer Address</td>
+                <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Distribution <br>Center Location</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Distribution <br>Ship Date</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipping Preference</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Freight Terms</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Carrier</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipping Service <br>Level</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Duty Attribute</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Weight <br> (in lbs.)</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipping Cost</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Final Delivery Location</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Final Delivery Date</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Received By</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Tracking Number <br> (Number of Pieces)</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Number of <br>  Cartons</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Named Place</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipping Address</td>      
+        				    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">House Airway</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Master Airway</td>                
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Flight Number</td>                
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Departure <br> Date / Time</td>                
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Arrival <br> Date / Time</td>        			
+        </tr>
+
+    <!-- Modified by sushetty on 01-Jul-2003 for QBERT# 83378: Bundled lines missing 
+	  -- Changes:  Header changed to 'Bundle' instead of 'Line' for Bundles. 
+	  -- Inserted a row header with Line no. for each line with in every bundle.
+	  -- A Heading "Non-Bundled Lines" will separate Bundles from other major lines
+    -->	
+                            								
+            <tr bgcolor="#ffffff">
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Complete</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">4601953144</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td> 				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">9586621</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">MP13587442</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">1185966</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">STANDARD</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">20/Nov/2007</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> </td> 				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">13/Dec/2007</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Yes</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">COMPAGNIE IBM FRANCE SAS<br>(XML ORDERS)<br>2 AVENUE GAMBETTA<br>PARIS LA DEFENSE  92066<br>France</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA<br>3 5 AVENUE MAURANE SAULNIER<br>ATTN 01 39 26 91 52 PIERRE COULAN<br>VELIZY  78944<br>France</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA<br>3 5 AVENUE MAURANE SAULNIER<br>VELIZY YVELINES 78944<br>France</td>				  
+				            
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">1 . 0</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">3</td>
+                                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">GLC-LH-SM= <br>                                                                                                                                              <br><span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;">Serial #:<br>
+                                FNS11361MBU<br>FNS11361RTT<br>FNS11361MBG<br>FNS11361MCD<br>FNS11361LBP<br>FNS1137033X<br>FNS113700KS<br>FNS11361MBN<br>FNS113701CY<br>FNS11361MB9<br>FNS11361L82<br>FNS113701CH<br>FNS11361LHJ<br>FNS11361MA3<br>FNS11361TQG<br>FNS11361RU8<br>FNS11361LH6<br>FNS11370053<br>FNS11361TR6<br>FNS11361MBY<br>FNS11361LGA<br>FNS11361MCP<br>FNS113701EC<br>FNS11361LA3<br>FNS11361MF0<br>FNS113619FK<br>FNS11361KNQ<br>FNS11370006<br>FNS11361KRB<br>FNS11361MF3<br>FNS113619DX<br>FNS11361AVP<br>FNS11361AVA<br>FNS11361Q3X<br>FNS113619HC<br>FNS11370094<br>FNS113700AK<br>FNS11361Q4F<br>FNS113701KM<br>FNS113702ZT<br>FNS113701QH<br>FNS11361ASC<br>FNS11361KKB<br>FNS113701EW<br>FNS11361RVJ<br>FNS11361GYA<br>FNS113619GA<br>FNS11361KQV<br>                                                    </span>
+                                                                                            <br><span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:bold;">Carton Id:<br>
+                            70888202<br>                        </span>
+                                    </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">48</td>
+                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">48</td>
+                
+					                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 995.00</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">54.14%</td>
+									<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>
+			<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>
+			                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 456.31</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 21,902.88</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 87,941.28</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>                                                                                
+	            <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 87,941.28</td>                    
+	            		    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"><a href="http://tools.cisco.com/qtc/invoice/GetType?sQueryType=DTL&sDetNumType=INV&sEmail=NO_DATA&sDelivery=HTML&sDocNumber=6739777" class="modulecontentlink">6739777</a></td>
+                    <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">Complete</td>                    
+                    					
+					<!-- Shipping Details -->                                        
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">26/Nov/2007&nbsp;</td>
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">
+	                    	                        Original:30/Nov/2007<br>Current:30/Nov/2007</td>
+	                    	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">28/Nov/2007&nbsp;</td>
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">ELC Gold</td>
+                                    	                 <td> </td>   <!-- for Ship-To Address -->
+                 <td> </td>   <!-- for End Customer Address -->
+                             
+                				
+			                   <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Roermond, Netherlands</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">28/Nov/2007&nbsp;</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Cisco</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Add / CIP</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">UPS Logistics</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Standard</td>					              
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Duty Paid</td>                    
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">9.7</td>
+                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 219.03</td>
+                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">VELIZY <br>France</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">03/Dec/2007</td>                                                                                                    
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> MOLBERT<br></td>
+                     <!-- Tracking Details -->
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">
+                                                                                                                                       	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366866106512" class="modulecontentlink" target="_blank">1Z1484366866106512</a>&nbsp;&nbsp;(1)<br> 
+                                                                  </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 1 </td>	                        
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Customer Premises</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA<br>3 5 AVENUE MAURANE SAULNIER<br>ATTN 01 39 26 91 52 PIERRE COULAN<br>VELIZY  78944<br>France</td>                    
+			     	                  	             
+             	                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td>  
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">29/Nov/2007</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td>
+	   	         		</tr>
+                                                                                  								
+            <tr bgcolor="#ffffff">
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Complete</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">4601953144</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td> 				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">9586621</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">MP13587442</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">1185966</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">STANDARD</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">20/Nov/2007</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> </td> 				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">13/Dec/2007</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Yes</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">COMPAGNIE IBM FRANCE SAS<br>(XML ORDERS)<br>2 AVENUE GAMBETTA<br>PARIS LA DEFENSE  92066<br>France</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA<br>3 5 AVENUE MAURANE SAULNIER<br>ATTN 01 39 26 91 52 PIERRE COULAN<br>VELIZY  78944<br>France</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA<br>3 5 AVENUE MAURANE SAULNIER<br>VELIZY YVELINES 78944<br>France</td>				  
+				            
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">2 . 0</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">1</td>
+                                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">WS-X6704-10GE= <br>                                                                                                                                              <br><span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;">Serial #:<br>
+                                SAL11413ELG<br>SAL11488DA4<br>SAL11488D6Y<br>SAL11488K2G<br>                                                    </span>
+                                                                                            <br><span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:bold;">Carton Id:<br>
+                            70934032<br>                        </span>
+                                    </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">4</td>
+                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">4</td>
+                
+					                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 20,000.00</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">54.14%</td>
+									<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>
+			<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>
+			                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 9,172.00</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 36,688.00</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 87,941.28</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>                                                                                
+	            <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 87,941.28</td>                    
+	            		    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"><a href="http://tools.cisco.com/qtc/invoice/GetType?sQueryType=DTL&sDetNumType=INV&sEmail=NO_DATA&sDelivery=HTML&sDocNumber=6758876" class="modulecontentlink">6758876</a></td>
+                    <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">Complete</td>                    
+                    					
+					<!-- Shipping Details -->                                        
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">26/Nov/2007&nbsp;</td>
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">
+	                    	                        Original:07/Dec/2007<br>Current:07/Dec/2007</td>
+	                    	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">05/Dec/2007&nbsp;</td>
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">ELC Gold</td>
+                                    	                 <td> </td>   <!-- for Ship-To Address -->
+                 <td> </td>   <!-- for End Customer Address -->
+                             
+                				
+			                   <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Roermond, Netherlands</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">05/Dec/2007&nbsp;</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Cisco</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Add / CIP</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">UPS Logistics</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Standard</td>					              
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Duty Paid</td>                    
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">68</td>
+                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 366.88</td>
+                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">VELIZY <br>France</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">07/Dec/2007</td>                                                                                                    
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> COULANGES<br></td>
+                     <!-- Tracking Details -->
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">
+                                                                                                                                       	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366866252471" class="modulecontentlink" target="_blank">1Z1484366866252471</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366866252480" class="modulecontentlink" target="_blank">1Z1484366866252480</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366866252499" class="modulecontentlink" target="_blank">1Z1484366866252499</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366866252506" class="modulecontentlink" target="_blank">1Z1484366866252506</a>&nbsp;&nbsp;(1)<br> 
+                                                                  </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 1 </td>	                        
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Customer Premises</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA<br>3 5 AVENUE MAURANE SAULNIER<br>ATTN 01 39 26 91 52 PIERRE COULAN<br>VELIZY  78944<br>France</td>                    
+			     	                  	             
+             	                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td>  
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">MH6580</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">05/Dec/2007</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td>
+	   	         		</tr>
+                                                                                  								
+            <tr bgcolor="#ffffff">
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Complete</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">4601953144</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td> 				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">9586621</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">MP13587442</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">1185966</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">STANDARD</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">20/Nov/2007</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> </td> 				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">13/Dec/2007</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Yes</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">COMPAGNIE IBM FRANCE SAS<br>(XML ORDERS)<br>2 AVENUE GAMBETTA<br>PARIS LA DEFENSE  92066<br>France</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA<br>3 5 AVENUE MAURANE SAULNIER<br>ATTN 01 39 26 91 52 PIERRE COULAN<br>VELIZY  78944<br>France</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA<br>3 5 AVENUE MAURANE SAULNIER<br>VELIZY YVELINES 78944<br>France</td>				  
+				            
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">3 . 0</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">2</td>
+                                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">XENPAK-10GB-LR= <br>                                                                                                                                              <br><span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;">Serial #:<br>
+                                ONT114801HX<br>ONT114800YD<br>ONT114801A3<br>ONT1148018U<br>ONT1148018Q<br>ONT114801E9<br>ONT114801CL<br>ONT114801H8<br>ONT114801E7<br>ONT1148015R<br>ONT1148015K<br>ONT1148015D<br>ONT114801B7<br>ONT114801FJ<br>ONT114801CS<br>ONT114801HR<br>                                                    </span>
+                                                                                            <br><span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:bold;">Carton Id:<br>
+                            71216222<br>                        </span>
+                                    </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">16</td>
+                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">16</td>
+                
+					                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 4,000.00</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">54.14%</td>
+									<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>
+			<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>
+			                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 1,834.40</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 29,350.40</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 87,941.28</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>                                                                                
+	            <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 87,941.28</td>                    
+	            		    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"><a href="http://tools.cisco.com/qtc/invoice/GetType?sQueryType=DTL&sDetNumType=INV&sEmail=NO_DATA&sDelivery=HTML&sDocNumber=6774131" class="modulecontentlink">6774131</a></td>
+                    <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">Complete</td>                    
+                    					
+					<!-- Shipping Details -->                                        
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">26/Nov/2007&nbsp;</td>
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">
+	                    	                        Original:13/Dec/2007<br>Current:13/Dec/2007</td>
+	                    	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">10/Dec/2007&nbsp;</td>
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">ELC Gold</td>
+                                    	                 <td> </td>   <!-- for Ship-To Address -->
+                 <td> </td>   <!-- for End Customer Address -->
+                             
+                				
+			                   <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Roermond, Netherlands</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">10/Dec/2007&nbsp;</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Cisco</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Add / CIP</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">UPS Logistics</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Standard</td>					              
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Duty Paid</td>                    
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">12.85</td>
+                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 293.50</td>
+                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">VELIZY <br>France</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">12/Dec/2007</td>                                                                                                    
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> COULANGES<br></td>
+                     <!-- Tracking Details -->
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">
+                                                                                                                                       	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366866388370" class="modulecontentlink" target="_blank">1Z1484366866388370</a>&nbsp;&nbsp;(1)<br> 
+                                                                  </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 1 </td>	                        
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Customer Premises</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BOUYGUES TELECOM BT EUROPA<br>3 5 AVENUE MAURANE SAULNIER<br>ATTN 01 39 26 91 52 PIERRE COULAN<br>VELIZY  78944<br>France</td>                    
+			     	                  	             
+             	                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td>  
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">MH6124</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">10/Dec/2007</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td>
+	   	         		</tr>
+                                                                   </table></td>
+</tr>
+</table>
+
+<!--sidevi Start: Adding code for Feb08_MR TD149 -->
+<!--sidevi End: Adding code for Feb08_MR TD149 -->
+
+			    <br>
+    <br>
+    
+<BR>
+<TABLE border="1" width="100%" cellspacing="0" cellpadding="0">
+  <TR bgcolor="#FFCC66">
+    <TD nowrap="true" width="100%"><SPAN class="contenttitle">Status Tool:</SPAN>
+     <SPAN class="contenttitlesub">Software License Details </SPAN></TD>
+  </TR>
+</TABLE>
+
+
+ <table width="100%" border="1" cellspacing="0" cellpadding="0" class = "appstablecolor">
+    <tr>
+    <td>
+ <table width="100%" border="1" cellspacing="1" cellpadding="3" class = "appstablecolor">
+        <tr> 
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Line Number</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Product</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">DLA</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">PAK Key</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">RLK</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Transaction Date</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Email Address</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Product Subgroup</td>
+            
+			  </table> </table>
+
+	<br>
+Terms And Conditions
+Cisco's standard Terms and Conditions of Sale shall apply to all Cisco products and services referenced in this document, unless you have entered into another written agreement with Cisco regarding the purchase and license of the Cisco products or services referenced in this document and such agreement is in effect, in which case the terms and conditions of such existing agreement shall govern the purchase and license of those Cisco products and services referenced in this document. A copy of Cisco's standard applicable Terms and Conditions of Sale may be obtained by sending a request, indicating the country in which you are located, to <a href='mailto:termsrequest@cisco.com'>termsrequest@cisco.com</a> 
+     

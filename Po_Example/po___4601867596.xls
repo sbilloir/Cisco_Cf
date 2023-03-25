@@ -1,0 +1,290 @@
+
+
+
+
+
+		
+
+     
+	       
+      
+    	    	    		    	    	    		    	    	    		    
+
+<table width="100%" border="1" cellspacing="0" cellpadding="0" class = "appstablecolor">
+
+<tr>
+<td>
+    <table width="100%" border="1" cellspacing="1" cellpadding="3">
+    <tr> 
+		<td colspan="14" bgcolor=green valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:white;text-decoration:none;font-weight:bold;">FIELDS</td>
+		<td colspan="5" bgcolor=blue valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:white;text-decoration:none;font-weight:bold;">Line</td>
+				<td colspan="9" bgcolor=red valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:white;text-decoration:none;font-weight:bold;">Pricing Details</td>
+				<td colspan="24" bgcolor=black valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:white;text-decoration:none;font-weight:bold;">Shipping Details</td>
+	</tr>
+    <tr>
+    <!-- Heade Information -->
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Status</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Purchase Order</td>    
+  		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Quote Number</td>     	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Sales Order</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Order ID</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Deal ID</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Order Type</td>    
+	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Date Submitted</td>    
+   		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Earliest Expiration Date</td>  	    <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Expected <br> Ship Date</td>    
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Early Ship</td> 
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Bill-To Address</td> 
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Ship-To Address</td> 		
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">End Customer Address</td> 				
+
+    <!-- Line Information -->		    	    	    	    	       	    
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Line</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Ship Set</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Product</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Active Quantity</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Quantity Shipped</td>
+                
+        <!-- Pricing Details -->
+	            <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">List Price</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Discount</td>
+	<!--Added code for trade-in and promotion values by shdeshmu on 21/10/2005 to resolve TD#70719
+	Start -->
+	<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Trade-in</td>
+	<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Promotion</td>
+	<!-- End -->
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Unit Price</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Extended Price</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Subtotal Product</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Subtotal Service</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Total</td>
+	        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Invoice Number</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Line Status</td>
+                
+		<!-- Shipping Details -->        
+        
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Request Date</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Scheduled Ship Date</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Date Shipped</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipment Method</td>
+        
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Ship To Address</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">End Customer Address</td>
+                <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Distribution <br>Center Location</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Distribution <br>Ship Date</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipping Preference</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Freight Terms</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Carrier</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipping Service <br>Level</td>
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Duty Attribute</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Weight <br> (in lbs.)</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipping Cost</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Final Delivery Location</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Final Delivery Date</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Received By</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Tracking Number <br> (Number of Pieces)</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Number of <br>  Cartons</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Named Place</td>      
+        <td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Shipping Address</td>      
+        			    </tr>
+
+    <!-- Modified by sushetty on 01-Jul-2003 for QBERT# 83378: Bundled lines missing 
+	  -- Changes:  Header changed to 'Bundle' instead of 'Line' for Bundles. 
+	  -- Inserted a row header with Line no. for each line with in every bundle.
+	  -- A Heading "Non-Bundled Lines" will separate Bundles from other major lines
+    -->	
+                            								
+            <tr bgcolor="#ffffff">
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Complete</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">4601867596</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td> 				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">9384571</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">MP11973253</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">1819199</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">STANDARD</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">27/Jun/2007</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> </td> 				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">11/Jul/2007</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Yes</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">COMPAGNIE IBM FRANCE SAS<br>(XML ORDERS)<br>2 AVENUE GAMBETTA<br>PARIS LA DEFENSE  92066<br>France</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BNP ARBITRAGE<br>20 BLD DES ITALIENS<br>ATTN 01 40 14 50 43 MR AIMONE<br>PARIS  75009<br>France</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BNP ARBITRAGE<br>20 BOULEVARD DES ITALIENS<br>PARIS PARIS 75009<br>France</td>				  
+				            
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">1 . 0</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">2</td>
+                                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">WS-C2960-48TT-L <br>                                                                                                                                              <br><span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;">Serial #:<br>
+                                FOC1124Z7YU<br>FOC1125W0EU<br>FOC1125W022<br>FOC1125W099<br>FOC1125W09V<br>FOC1125W0ET<br>FOC1125W0EX<br>FOC1125W01T<br>FOC1125W0EV<br>FOC1125W0EW<br>FOC1125W01Y<br>FOC1125W021<br>FOC1125W09A<br>FOC1125W0D5<br>FOC1125W09N<br>FOC1125W09E<br>FOC1125W0D9<br>FOC1124Z6FN<br>FOC1124Z6U2<br>FOC1125W0BS<br>FOC1125W0FG<br>FOC1125W09C<br>                                                    </span>
+                                                                                            <br><span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:bold;">Carton Id:<br>
+                            66103508<br>                        </span>
+                                    </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">22</td>
+                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">22</td>
+                
+					                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 2,495.00</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">54.00%</td>
+									<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>
+			<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>
+			                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 1,147.70</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 25,249.40</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 25,249.40</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 220.00</td>                                                                                
+	            <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 25,469.40</td>                    
+	            		    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"><a href="http://tools.cisco.com/qtc/invoice/GetType?sQueryType=DTL&sDetNumType=INV&sEmail=NO_DATA&sDelivery=HTML&sDocNumber=6378334" class="modulecontentlink">6378334</a></td>
+                    <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">Complete</td>                    
+                    					
+					<!-- Shipping Details -->                                        
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">28/Jun/2007&nbsp;</td>
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">
+	                    	                        Original:11/Jul/2007<br>Current:11/Jul/2007</td>
+	                    	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">09/Jul/2007&nbsp;</td>
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">ELC Gold</td>
+                                    	                 <td> </td>   <!-- for Ship-To Address -->
+                 <td> </td>   <!-- for End Customer Address -->
+                             
+                				
+			                   <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Roermond, Netherlands</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">09/Jul/2007&nbsp;</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Cisco</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Add / CIP</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> &nbsp; </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Standard</td>					              
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Duty Paid</td>                    
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">242</td>
+                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 252.49</td>
+                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">PARIS <br>France</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">12/Jul/2007</td>                                                                                                    
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> PERNOT<br></td>
+                     <!-- Tracking Details -->
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">
+                                                                                                                                       	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799022" class="modulecontentlink" target="_blank">1Z1484366862799022</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799031" class="modulecontentlink" target="_blank">1Z1484366862799031</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799040" class="modulecontentlink" target="_blank">1Z1484366862799040</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799059" class="modulecontentlink" target="_blank">1Z1484366862799059</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799068" class="modulecontentlink" target="_blank">1Z1484366862799068</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799077" class="modulecontentlink" target="_blank">1Z1484366862799077</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799086" class="modulecontentlink" target="_blank">1Z1484366862799086</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799095" class="modulecontentlink" target="_blank">1Z1484366862799095</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799102" class="modulecontentlink" target="_blank">1Z1484366862799102</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799111" class="modulecontentlink" target="_blank">1Z1484366862799111</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799120" class="modulecontentlink" target="_blank">1Z1484366862799120</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799139" class="modulecontentlink" target="_blank">1Z1484366862799139</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799148" class="modulecontentlink" target="_blank">1Z1484366862799148</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799157" class="modulecontentlink" target="_blank">1Z1484366862799157</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799166" class="modulecontentlink" target="_blank">1Z1484366862799166</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799175" class="modulecontentlink" target="_blank">1Z1484366862799175</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799184" class="modulecontentlink" target="_blank">1Z1484366862799184</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799193" class="modulecontentlink" target="_blank">1Z1484366862799193</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799200" class="modulecontentlink" target="_blank">1Z1484366862799200</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799219" class="modulecontentlink" target="_blank">1Z1484366862799219</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799228" class="modulecontentlink" target="_blank">1Z1484366862799228</a>&nbsp;&nbsp;(1)<br> 
+                                                                                                                     	                        	<a href="http://www.shipment-track-and-trace.com/CTT/SilverStream/Pages/pgCartonInfo.html?TRACKINGNR=1Z1484366862799237" class="modulecontentlink" target="_blank">1Z1484366862799237</a>&nbsp;&nbsp;(1)<br> 
+                                                                  </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 1 </td>	                        
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Customer Premises</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BNP ARBITRAGE<br>20 BLD DES ITALIENS<br>ATTN 01 40 14 50 43 MR AIMONE<br>PARIS  75009<br>France</td>                    
+			     	                  	             
+             	 		</tr>
+                                                                                  								
+            <tr bgcolor="#ffffff">
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Complete</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">4601867596</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"></td> 				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">9384571</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">MP11973253</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">1819199</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">STANDARD</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">27/Jun/2007</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> </td> 				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">11/Jul/2007</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Yes</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">COMPAGNIE IBM FRANCE SAS<br>(XML ORDERS)<br>2 AVENUE GAMBETTA<br>PARIS LA DEFENSE  92066<br>France</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BNP ARBITRAGE<br>20 BLD DES ITALIENS<br>ATTN 01 40 14 50 43 MR AIMONE<br>PARIS  75009<br>France</td>
+				<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BNP ARBITRAGE<br>20 BOULEVARD DES ITALIENS<br>PARIS PARIS 75009<br>France</td>				  
+				            
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">2 . 0</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">1</td>
+                                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">CON-CBNT-C29604TT <br>                                      <br><span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;">Contract #: 
+                                                    3516451
+                         </span><br>
+                                                                                             &nbsp;                        </span>
+                                                                                            <br><span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:bold;">Carton Id:<br>
+                            0<br>                        </span>
+                                    </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">22</td>
+                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">0</td>
+                
+					                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 40.00</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">75.00%</td>
+									<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>
+			<td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 0.00</td>
+			                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 10.00</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 220.00</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 25,249.40</td>
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 220.00</td>                                                                                
+	            <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 25,469.40</td>                    
+	            		    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"><a href="http://tools.cisco.com/qtc/invoice/GetType?sQueryType=DTL&sDetNumType=INV&sEmail=NO_DATA&sDelivery=HTML&sDocNumber=6387197" class="modulecontentlink">6387197</a></td>
+                    <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">Complete</td>                    
+                    					
+					<!-- Shipping Details -->                                        
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">28/Jun/2007&nbsp;</td>
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">
+	                    	                        &nbsp;</td>
+	                    	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top"> &nbsp;</td>
+	                <td  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;" valign="top">ELC Gold</td>
+                                    	                 <td> </td>   <!-- for Ship-To Address -->
+                 <td> </td>   <!-- for End Customer Address -->
+                             
+                				
+			                   <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Roermond, Netherlands</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> &nbsp;</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Cisco</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Add / CIP</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> &nbsp; </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Standard</td>					              
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Duty Paid</td>                    
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> &nbsp; </td>
+                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> </td>
+                                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">PARIS <br>France</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> </td>                                                                                                    
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> </td>
+                     <!-- Tracking Details -->
+                    <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">
+                                          &nbsp;                                          </td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;"> 1 </td>	                        
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">Customer Premises</td>
+                <td valign="top"  style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal;">BNP ARBITRAGE<br>20 BLD DES ITALIENS<br>ATTN 01 40 14 50 43 MR AIMONE<br>PARIS  75009<br>France</td>                    
+			     	                  	             
+             	 		</tr>
+                                                                   </table></td>
+</tr>
+</table>
+
+<!--sidevi Start: Adding code for Feb08_MR TD149 -->
+<!--sidevi End: Adding code for Feb08_MR TD149 -->
+
+			    <br>
+    <br>
+    
+<BR>
+<TABLE border="1" width="100%" cellspacing="0" cellpadding="0">
+  <TR bgcolor="#FFCC66">
+    <TD nowrap="true" width="100%"><SPAN class="contenttitle">Status Tool:</SPAN>
+     <SPAN class="contenttitlesub">Software License Details </SPAN></TD>
+  </TR>
+</TABLE>
+
+
+ <table width="100%" border="1" cellspacing="0" cellpadding="0" class = "appstablecolor">
+    <tr>
+    <td>
+ <table width="100%" border="1" cellspacing="1" cellpadding="3" class = "appstablecolor">
+        <tr> 
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Line Number</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Product</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">DLA</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">PAK Key</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">RLK</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Transaction Date</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Email Address</td>
+		<td valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:black;text-decoration:none;font-weight:bold;">Product Subgroup</td>
+            
+			  </table> </table>
+
+	<br>
+Terms And Conditions
+Cisco's standard Terms and Conditions of Sale shall apply to all Cisco products and services referenced in this document, unless you have entered into another written agreement with Cisco regarding the purchase and license of the Cisco products or services referenced in this document and such agreement is in effect, in which case the terms and conditions of such existing agreement shall govern the purchase and license of those Cisco products and services referenced in this document. A copy of Cisco's standard applicable Terms and Conditions of Sale may be obtained by sending a request, indicating the country in which you are located, to <a href='mailto:termsrequest@cisco.com'>termsrequest@cisco.com</a> 
+     
